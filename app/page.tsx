@@ -221,15 +221,6 @@ export default function Home() {
             })}
           </div>
         </div>
-
-        {/* Footer */}
-        <div className="bg-slate-800/30 border border-slate-700 rounded-2xl p-8 text-center backdrop-blur-sm">
-          <p className="text-slate-400 text-sm leading-relaxed">
-            <span className="text-blue-400 font-semibold">Try editing</span> a block{`'`}s data to see the chain become invalid,
-            or <span className="text-blue-400 font-semibold">increase difficulty</span> to observe longer mining times. 
-            Blockchain security through transparency.
-          </p>
-        </div>
       </div>
     </main>
   );
